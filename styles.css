@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+.instructions{
+    font-size:18px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+  }
+  li{
+    display:inline;
+    border-right: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    font-size:61px;
+  }
+  li:first-child {
+    border-left: 1px olid #bbb;
+  }
+  li a:hover:not(.active) {
+    background-color:gray;
+  }
+  a{
+    color:white;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+.parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.normal-section {
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-1{
+    height:500px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-2 {
+    height: 475px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+
+.normal-section-3 {
+    height: 475px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+
+.normal-section-4 {
+    height: 500px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+
+.normal-section-5 {
+    height: 1000px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+
+.normal-section-6 {
+    height: 800px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-7 {
+    height: 625px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-8 {
+    height: 600px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-9 {
+    height: 300px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-10 {
+    height: 350px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-11 {
+    height: 1000px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-celeb{
+    height: 800px;
+    background-color: black;
+    text-align: center;
+    color:white;
+    font-family: fantasy;
+}
+.normal-section-interview {
+    height: 800px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.normal-section-analysis {
+    height: 700px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+.parallax-content, .section-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Style the sections */
+#section1 {
+    background-image: url('https://mcdn.wallpapersafari.com/medium/71/42/CZxFlq.jpg');
+    font-family:fantasy;
+    font-size:36px;
+}
+
+#section2 {
+    background-image: url('https://via.placeholder.com/1920x1080/ff0000/ffffff');
+    font-family:fantasy;
+    font-size:36px;
+}
+#section3 {
+    background-image:url('exitback_1920x1080.webp');
+    font-family:fantasy;
+    font-size:36px;
+}
+#section4 {
+    background-image:url('celeb.jpg');
+    font-family:fantasy;
+    font-size:36px;
+}
+#section5 {
+    background-image:url('moon.jpg');
+    font-family:fantasy;
+    font-size:36px;
+}
+#section6 {
+    background-image:url('images.png');
+    font-family:fantasy;
+    font-size:36px;
+}
+
+.hover-div {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.question{
+    color:red;
+}
+.popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:purple;
+    color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hover-div:hover .popup {
+    display: block;
+}
+h1{
+    overflow: hidden;
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+}
+
+.header,.end{
+    white-space: nowrap;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
